@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HyperSliderGuard</string>
+    <string name="xposed_description">Disable long-press expansion or customize the long-press delay for brightness and volume sliders in Xiaomi HyperOS Control Center.</string>
+    <string name="status_activated">Module Status: Activated (changes apply immediately)</string>
+    <string name="status_not_activated">Module Status: Not Activated (please enable it in LSPosed)</string>
+    <string name="status_hint">Static scope enabled (automatically locked to System UI: com.android.systemui). Restart System UI once after enabling; subsequent changes take effect immediately.</string>
+    <string name="brightness_section_title">Brightness Slider Long-Press</string>
+    <string name="volume_section_title">Volume Slider Long-Press</string>
+    <string name="mode_disable">Disable Long-Press (Default)</string>
+    <string name="mode_custom_timeout">Custom Long-Press Delay</string>
+    <string name="mode_system_default">System Default</string>
+    <string name="timeout_label_format">Long-press delay: %1$d ms (%2$.2f s)</string>
+    <string name="prefs_private_warning">Module is not activated yet. Preferences are saved in private mode; reopen and save after activation.</string>
+    <string name="general_section_title">General</string>
+    <string name="hide_launcher_icon_title">Hide Launcher Icon</string>
+    <string name="hide_launcher_icon_desc">You can still open this settings page from the LSPosed module list.</string>
+    <string name="log_section_title">Diagnostics &amp; Logs</string>
+    <string name="log_section_desc">Copy a diagnostic report containing device info, activation status, configuration snapshot, app logs, and self-process logcat.</string>
+    <string name="btn_copy_logs">Copy Logs</string>
+    <string name="btn_clear_logs">Clear Logs</string>
+    <string name="toast_logs_copied">Diagnostic logs copied to clipboard</string>
+    <string name="toast_logs_cleared">App logs cleared</string>
+</resources>

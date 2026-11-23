@@ -1,0 +1,19 @@
+# 本地环境与签名敏感信息
+local.properties
+*.jks
+*.keystore
+app/keystore.jks
+
+# Gradle 与构建产物
+.gradle/
+build/
+app/build/
+*.apk
+*.aab
+
+# IDE 与临时文件
+.idea/
+*.iml
+.tmp/
+.kotlin
+captures/

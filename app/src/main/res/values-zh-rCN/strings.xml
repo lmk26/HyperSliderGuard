@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HyperSliderGuard</string>
+    <string name="xposed_description">禁用小米 HyperOS 控制中心音量条与亮度条的长按展开更多选项，或自定义长按触发时间。</string>
+    <string name="status_activated">模块状态：已激活（修改配置即时生效）</string>
+    <string name="status_not_activated">模块状态：未激活（请先在 LSPosed 中启用模块）</string>
+    <string name="status_hint">已启用静态作用域（自动锁定：系统界面 com.android.systemui）。首次启用后请重启系统界面，之后在本页修改配置无需重启即可生效。</string>
+    <string name="brightness_section_title">亮度条长按</string>
+    <string name="volume_section_title">音量条长按</string>
+    <string name="mode_disable">禁用长按（默认）</string>
+    <string name="mode_custom_timeout">自定义长按触发时间</string>
+    <string name="mode_system_default">系统默认</string>
+    <string name="timeout_label_format">长按触发时间：%1$d ms（%2$.2f 秒）</string>
+    <string name="prefs_private_warning">当前模块未激活，配置暂时保存为私有模式；激活后重新打开本页保存即可对系统界面生效。</string>
+    <string name="general_section_title">通用设置</string>
+    <string name="hide_launcher_icon_title">隐藏桌面图标</string>
+    <string name="hide_launcher_icon_desc">隐藏后仍可在 LSPosed 模块列表中点击打开本设置页。</string>
+    <string name="log_section_title">诊断与日志</string>
+    <string name="log_section_desc">复制包含设备信息、模块激活状态、配置快照、应用日志与当前进程 Logcat 的诊断报告，方便问题反馈。</string>
+    <string name="btn_copy_logs">复制日志</string>
+    <string name="btn_clear_logs">清空日志</string>
+    <string name="toast_logs_copied">诊断日志已复制到剪贴板</string>
+    <string name="toast_logs_cleared">已清空应用日志</string>
+</resources>
